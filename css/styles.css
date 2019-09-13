@@ -23,7 +23,7 @@ h1{
     margin: 50px auto 0 auto;
     line-height: 2;
     font-family: 'Sacramento', cursive;
-    font-size: 5.625em; /* 100% = 16px =1em (% and em are dynamic because the font size changes when the size is changes in browser settings.
+    font-size: 5.625em; /* 100% = 16px =1em (% and em are dynamic because the font size changes when the size is changed in browser settings.
      but, by using px it becomes static. em and % both inherit from parent section and add up the value. But, px doesn't inherit because it is static.
      For preventing font size inheritance from parent, rem is used instead of em.)*/
     /* width: 10%;
@@ -72,10 +72,16 @@ h3{
     margin-right: 30px;
 }
 
-.tabla-img{
-    width: 25%;
+.skill-img{
+    width: 40%;
     float: right;
     margin-left: 30px;
+}
+
+.tabla-img{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
 }
 
 /* .web{
@@ -88,11 +94,13 @@ h3{
     bottom: 300px;
 }
 
+
 .top-cloud{
     position: absolute;
     right: 350px;
     top: 40px;
 }
+
 
 .top-container h2{
     font-weight: normal;
